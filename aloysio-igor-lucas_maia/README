@@ -1,0 +1,46 @@
+#################################################
+###          INF554 - Team Batiki             ###
+#################################################
+
+Group: ALBUQUERQUE SILVA Igor
+       GALVAO LOPES Aloysio
+       MAIA MORAIS Lucas
+
+Emails: aloysio.galvao-lopes@polytechnique.edu
+	igor.silva-albuquerque@polytechnique.edu
+	lucas.maia-morais@polytechnique.edu
+
+This submission includes:
+
+1) This README file
+2) The report named aloysio-igor-lucas_maia-report.pdf
+3) The code folder
+
+1 -> This file
+
+2 -> We really tried lots of different stuff, so we tried to talk about only what we spent most time on and about what worked the best to stay within the page limit.
+
+3 -> The code includes three notebooks:
+
+** > main_submission.ipynb
+
+This file contains the code for our main submission, it depends on the the raw challenge data that should be provided in the data folder. This way, all of the data that was given for the challenge should be place here in the data folder.
+
+This file also depends on the preprocessed word embeddings that are calculated by the notebook calculate_embeddings.ipynb. This second notebook should generate a files called train.pkl and evaluation.pkl. This file should be located in the data directory.
+
+The data directory, this notebook and the calculate_embeddings.ipynb notebook should all be placed in the same directory. The final directory structure should be:
+
+code/
+    data/
+	train.pkl
+	evaluation.pkl
+	train.csv
+	evaluation.csv
+    main_submission.ipynb
+    calculate_embeddings.ipynb
+
+** > calculate_embeddings.ipynb
+
+This file contains the code that generates the embeddings for the textual features, you should run this file to generate the files train.pkl and evaluation.pkl. After that you can run the model.
+
+Observations: this code can take a considerable amount of time to run, this conde only includes the best submission of the team, other submissions include several other notebooks that depend on each other. This way we decided to just include this one, if you wish to know more about the other attempts of the group please contact us by mail or ask us during our presentation. The files train.csv and evaluation.csv can be obtained from the challenge page.
